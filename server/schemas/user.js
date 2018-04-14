@@ -1,4 +1,17 @@
-//  User schema
+/**
+ * User schema
+ *
+ * @param  {number} id
+ * @param  {string} username
+ * @param  {string} name
+ * @param  {string} email
+ * @param  {string} phoneNumber
+ * @param  {string} password
+ * @param  {number} points
+ * @param  {array} photos
+ * @param  {array} friends
+ *
+ */
 
 {
   id: documentId,
@@ -6,7 +19,7 @@
   name: String,
   email: String,
   phoneNumber: String,
-  pass: String,   //  Salted hashed password
+  password: String,   //  Salted hashed password
   points: Integer,
   photos: Array of photoDocumentId,
   friends: Array of userDocumentId,

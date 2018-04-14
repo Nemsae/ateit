@@ -8,11 +8,7 @@
  * @param  {array} upvoteUsers
  * @param  {bool} censorFlag
  *
- *
  */
-
-//  Ex. On our landing page we break down recommendations into menu categories
-//  Popular desert menus around you
 
 {
   id: documentId,

@@ -5,7 +5,6 @@
  * @param  {number} dayType  "breakfast/lunch/dinner"
  * @param  {number} menuType  "entrees, appetizers, drinks, dessserts"
  *
- *
  */
 
 //  Ex. On our landing page we break down recommendations into menu categories

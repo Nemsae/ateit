@@ -1,20 +1,16 @@
 /**
- * menuItem schema
+ * MenuItem schema
  *
  * @param  {number} id
  * @param  {number} name  "breakfast/lunch/dinner"
  * @param  {number} upvotes integer greater than 0
- * @param  {string} description integer greater than 0
- * @param  {array} ingredients integer greater than 0
- * @param  {number} price integer greater than 0
- * @param  {array} photos integer greater than 0
- * @param  {array} upvoteUsers integer greater than 0
- *
+ * @param  {string} description
+ * @param  {array} ingredients
+ * @param  {number} price
+ * @param  {array} photos
+ * @param  {array} upvoteUsers
  *
  */
-
-//  Ex. On our landing page we break down recommendations into menu categories
-//  Popular desert menus around you
 
 {
   id: documentId,
